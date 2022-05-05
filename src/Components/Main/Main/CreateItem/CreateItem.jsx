@@ -9,6 +9,7 @@ const CurrentPrice = (props) => {
   return price;
 
 }
+let sign = "₸";
 function CreateItem(props) {
  
   return (
@@ -25,7 +26,7 @@ function CreateItem(props) {
      <img className={styleCreateItem.star} src={star} alt="star"/>  <div className={styleCreateItem.rate} > {props.rate} </div>
      <div className={styleCreateItem.price} > 
      <div className={styleCreateItem.oldPrice}> {props.oldPrice} </div>
-     {<CurrentPrice oldPrice = {props.oldPrice} discount = {props.discount}/> }₸ </div>
+     {<CurrentPrice oldPrice = {props.oldPrice} discount = {props.discount}/> } {sign} </div>
 
 
 </div>

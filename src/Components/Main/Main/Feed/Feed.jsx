@@ -1,20 +1,30 @@
 /* eslint-disable linebreak-style */
-import React from 'react';
-import styleFeed from './Feed.module.css';
-
-// eslint-disable-next-line require-jsdoc
+import React, { useState, useEffect } from 'react';
+import style from './Feed.module.css';
 function Feed() {
-    return (
-    <div className={styleFeed.main}>
+  const [url, setUrl] = useState(null);
 
+  useEffect(() => {
+      fetch('https://www.breakingbadapi.com/api/quotes')
+          .then(response => response.json())
+          .then(data => console.log(data.quote));
 
-<div className={styleFeed.sections}>
-В этом разделе пока нет подходящих товаров
-</div>
+  }, );
+
+  const PrintQuote = (props) => {
+    let quote = props.quote;
+    return quote;
+  
+  }
+
+return (
+   <div className={style.main}>
+    <div className={style.sections}>  
+    <p className={style.sometext}> Рандомная цитата для тебя, милый Друг: <PrintQuote quote ={url} /> </p>
 
     </div>
+  </div>
 
   );
 }
-
 export default Feed;

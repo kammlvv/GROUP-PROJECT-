@@ -5,6 +5,7 @@
   grid-template-columns: 2fr 2fr;
   position: relative;
   background-color: white;
+  flex: 0 0 auto;
 }
 
 .logotype{

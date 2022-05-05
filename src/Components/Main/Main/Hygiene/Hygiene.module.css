@@ -10,3 +10,26 @@
   margin: 0 auto;
   padding:10px;
 }
+.buttonClick{
+  background-color: #FDB713;
+  white-space: nowrap;
+  border: 1px solid black;
+  width: 200px;
+  padding: 10px;
+  border-radius: 9px;
+    cursor: pointer;
+    color: #222222;
+    font-size: 16px;
+}
+.href{
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+  color: #904D0D;
+}
+.dogImg{
+  width: 500px;
+}
+.sometext{
+  font-size:25px;
+}

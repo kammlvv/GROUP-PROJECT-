@@ -28,7 +28,6 @@ function App() {
             <Route path="/feed" element={<Feed/>}/>
             <Route path="/bags" element={<Bags/>}/>
             <Route path="/hygiene" element={<Hygiene/>}/>
-
           </Routes>
         </div>
 
