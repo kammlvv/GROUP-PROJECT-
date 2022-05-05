@@ -1,0 +1,12 @@
+.main{
+  width: 100%;
+  background-color: white;
+
+}
+.sections{
+  text-align: center;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  padding:10px;
+}

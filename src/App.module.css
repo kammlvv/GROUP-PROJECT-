@@ -1,0 +1,30 @@
+*{
+  transition: all 0.5s;
+}
+.App{
+  margin: 0 auto;
+  width: 100%;
+  background: #222222;;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content{
+  flex:  1 0 auto;
+}
+.Header{
+  flex: 0 0 auto;
+}
+.Nav{
+  flex: 0 0 auto;
+}
+.Footer{
+  flex: 0 0 auto;
+}
+
+
+
+/*
+
+
+*/

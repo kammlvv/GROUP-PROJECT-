@@ -1,0 +1,49 @@
+.nav{
+  background-color: #FDB713;
+  margin: 0 auto;
+  text-align: center;
+  }
+
+  .NAV{
+    font-family: "Times New Roman", Times, serif;
+    transition: all 0.1s;
+    font-size: 20px;
+    margin-right: 1%;
+    white-space: nowrap;
+    display: inline-block;
+    width: 190px;
+    background-color: #FDB713;
+    padding: 10px 0px 10px 0px;
+  }
+  .NAV:hover{
+    background-color:#E89B0F;
+    color: white;
+
+  }
+
+  
+  .NAV.profile{ 
+    
+  }
+  .NAV.tasks{
+    
+  }
+  .NAV.wallet{
+    
+  
+  }
+  .NAV.statistics{
+      
+  }
+  .NAV.aboutUs{
+    
+  }
+  .Link{
+    color: #904D07;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  }
+  .Link:hover{
+    color: white;
+  }

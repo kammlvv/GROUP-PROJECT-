@@ -1,0 +1,59 @@
+.container{
+  position: relative;
+  text-align: center;
+  color: white;
+  transition: all 0.5s;
+  display: inline-block;
+  margin:15px;
+  border-radius: 2px;
+
+}
+
+.container:hover .icon{
+  filter: brightness(85%);
+}
+
+
+.icon {
+  width: 350px;
+  filter: brightness(55%);
+  transition: all 0.5s;
+  border-radius: 2px;
+}
+
+
+
+.section {
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 24px;
+  top: 40%;
+  color: white;
+  font-weight: bold;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.Link{
+  color: #904D07;
+  display: block;
+  text-decoration: none;
+  position: absolute;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  top: 60%;
+  color: white;
+  font-weight: bold;
+  border: 1.5px solid white;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+  padding:5px;
+}
+.Link:hover{
+  color: gray;
+  background-color:white;
+}

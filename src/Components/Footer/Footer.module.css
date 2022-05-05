@@ -1,0 +1,78 @@
+.footer{
+
+  width: 100%;
+  text-align: center;
+  height: 180px;
+  background-color: #4869B3;
+
+  
+}
+.socialNetworks{
+
+  height: 60px;
+  margin-bottom: 25px;
+}
+.copyRight{
+
+  white-space: nowrap;
+  color: #DCDCDC;
+  font-size: 14px;
+
+}
+
+
+.icons{
+  width:40px;
+  padding:8px;
+  margin-top: 10px;
+  filter: brightness(95%);
+  
+}
+.icons:hover{
+  filter: brightness(105%);
+}
+.icons.insta{
+  
+}
+
+.icons.facebook{
+
+}
+
+.icons.telegram{
+
+}
+
+.icons.vk{
+
+}
+.list{
+
+  width: 80%;
+  height: 40px;
+  margin: 0 auto;
+}
+.NAV{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  display: inline-block;
+  width: 280px;
+  margin-right: 1px;
+  white-space: nowrap;
+}
+.NAV:hover{
+  background-color:#375188;
+
+}
+.activeLink{
+
+}
+.Link{
+  color: #DCDCDC;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+.Link:hover{
+  color: white;
+}
