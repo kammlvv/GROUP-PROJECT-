@@ -1,27 +1,22 @@
 /* eslint-disable linebreak-style */
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import style from './Feed.module.css';
 function Feed() {
-  const [url, setUrl] = useState(null);
 
-  useEffect(() => {
-      fetch('https://www.breakingbadapi.com/api/quotes')
-          .then(response => response.json())
-          .then(data => console.log(data.quote));
-
-  }, );
-
-  const PrintQuote = (props) => {
-    let quote = props.quote;
-    return quote;
+  let getQuote = React.createRef();
+  const printQuote = () => {
+    let quote = getQuote.current.value;
+    alert("Спасибо за ваше пожелание: " + quote);
   
   }
 
 return (
    <div className={style.main}>
     <div className={style.sections}>  
-    <p className={style.sometext}> Рандомная цитата для тебя, милый Друг: <PrintQuote quote ={url} /> </p>
-
+    <textarea className={style.someText} ref={getQuote} placeholder=" Напиши свои пожелания, милый Друг: "> </textarea>
+    <button className={style.buttonOnClick} onClick = {printQuote}>
+       Нажми чтобы отправить ! 
+    </button>
     </div>
   </div>
 

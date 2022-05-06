@@ -1,0 +1,53 @@
+.container{
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  transition: all 0.5s;
+  width: 250px;
+  height: 450px;
+  display: inline-block;
+  margin:15px;
+  border-radius: 2px;
+  background-color: lightgray;
+padding:20px;
+
+
+}
+
+
+.icondiv{
+  overflow: hidden;
+  display: inline-block;
+}
+.icon {
+  width: 200px;
+  display: block;
+  filter: brightness(90%);
+  transition: all 0.5s;
+  border-radius: 2px;
+}
+
+
+.rate{
+  color: black;
+  display: inline-block;
+  margin-right: 10px;
+  font-size:18px;
+}
+.star{
+  width: 20px;
+  padding-top: 5px;
+  display: inline-block;
+}
+.name{
+color: black;
+font-size:20px;
+
+}
+
+.review{
+  color: black;
+font-size:20px;
+border:1px solid;
+padding: 5px;
+}

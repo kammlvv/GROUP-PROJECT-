@@ -16,6 +16,7 @@ return (
     <button className={style.buttonClick}>
       <a href="/Hygiene" className={style.href}> Нажми на меня ! </a> 
     </button>
+
     <p className={style.sometext}> Рандомные Собаки на сайте для Кошек, не странно ли??? </p>
 
 

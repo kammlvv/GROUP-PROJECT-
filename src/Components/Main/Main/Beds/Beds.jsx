@@ -13,6 +13,7 @@ function Beds() {
       {icon:bed3, name:"Лежак для котов", producer:"Природа Кантри", oldPrice:"8890", rate:"4.8", discount:"7"}
 
 
+
   ]
   let printBed = beds.map(bed => <BedItem icon={bed.icon} name={bed.name} producer={bed.producer} 
                                             oldPrice={bed.oldPrice} rate={bed.rate} discount={bed.discount}/>
